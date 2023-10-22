@@ -6,6 +6,12 @@ import ColoredBox4 from '../assets/pointer-4.png'
 import Project_1 from '../assets/project1.png'
 import Project_2 from '../assets/project2.png'
 import Project_3 from '../assets/project3.png'
+import box_Icon_1 from '../assets/Icon1.png'
+import box_Icon_2 from '../assets/Icon2.png'
+import box_Icon_3 from '../assets/Icon3.png'
+import box_Icon_4 from '../assets/Icon4.png'
+import box_Icon_5 from '../assets/Icon5.png'
+import box_Icon_6 from '../assets/Icon6.png'
 
 export default{
     LandingPage,
@@ -15,5 +21,11 @@ export default{
     ColoredBox4,
     Project_1,
     Project_2,
-    Project_3
+    Project_3,
+    box_Icon_1,
+    box_Icon_2,
+    box_Icon_3,
+    box_Icon_4,
+    box_Icon_5,
+    box_Icon_6
 }

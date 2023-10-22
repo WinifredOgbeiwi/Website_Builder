@@ -1,0 +1,25 @@
+import React from 'react'
+
+import data from '../constants/data';
+
+const Features = () => {
+    return (
+        <section className=' bg-[#F4F6FC] py-[128px]'>
+            <div className='flex flex-col justify-center items-center text-center mb-12 '>
+                <h5 className='font-medium mb-3'>Features</h5>
+                <h2 className='text-6xl font-semibold w-[39.375rem] leading-tight'>Design that solves problems, one product at a time</h2>
+            </div>
+            <div className='grid grid-cols-3 gap-10 '> 
+                {data.feature_box_data.map(({id,img,heading,paragraph})=>(
+                    <div key={id} className=' shadow-lg bg-white py-14 px-12'>
+                        <img src={img} alt="" />
+                        <h5 className='mt-6 mb-3 text-2xl font-medium'>{heading}</h5>
+                        <p className=' text-grey2'>{paragraph}</p>
+                    </div>
+                ))}
+            </div>
+        </section>
+    )
+}
+
+export default Features

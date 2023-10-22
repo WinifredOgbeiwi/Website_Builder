@@ -60,9 +60,48 @@ const how_we_work_data = [
     }
 ]
 
+const feature_box_data =[
+    {
+        id:1,
+        img: assets.box_Icon_1,
+        heading:"Uses Client First",
+        paragraph:"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 2,
+        img: assets.box_Icon_2,
+        heading: "Two Free Revision Round",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 3,
+        img: assets.box_Icon_3,
+        heading: "Template Customization",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 4,
+        img: assets.box_Icon_4,
+        heading: "24/7 Support",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 5,
+        img: assets.box_Icon_5,
+        heading: "Quick Delivery",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 6,
+        img: assets.box_Icon_6,
+        heading: "Hands-on approach",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+]
 
 
 export default {
     header_links_data,
-    how_we_work_data
+    how_we_work_data,
+    feature_box_data
 }

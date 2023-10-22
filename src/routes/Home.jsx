@@ -1,16 +1,18 @@
-import React from 'react'
-import LandingPage from '../sections/landingPage'
-import HowWeWorks from '../sections/HowWeWorks'
-import Projects from '../sections/Projects'
+import React from "react";
+import LandingPage from "../sections/landingPage";
+import HowWeWorks from "../sections/HowWeWorks";
+import Projects from "../sections/Projects";
+import Features from "../sections/Features";
 
-const home = () => {
+const Home = () => {
   return (
     <>
-      <LandingPage/>
-      <HowWeWorks/>
-      <Projects/>
+      <LandingPage />
+      <HowWeWorks />
+      <Projects />
+      <Features />
     </>
-  )
-}
+  );
+};
 
-export default home
+export default Home;
