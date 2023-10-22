@@ -13,3 +13,7 @@ body{
 header, main, section{
     padding: 0 100px;
 }
+
+.linear{
+  background: linear-gradient(329deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
+}
