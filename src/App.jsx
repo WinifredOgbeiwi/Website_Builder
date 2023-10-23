@@ -1,12 +1,14 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './layout/Header'
-import Home from './routes/Home'
+import Home from './routes/home'
 import About from './routes/About'
 import Features from './routes/Features'
 import Pricing from './routes/Pricing'
 import Faq from './routes/Faq'
 import Blog from './routes/Blog'
+import Footer from './layout/Footer'
+
 
 const App = () => {
   return (
@@ -21,6 +23,7 @@ const App = () => {
           <Route path='/faq' element={<Faq />} />
           <Route path='/blog' element={<Blog />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
 
     </>
