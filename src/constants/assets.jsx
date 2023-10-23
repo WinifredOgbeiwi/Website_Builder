@@ -16,6 +16,9 @@ import review_1 from '../assets/review1.jpg'
 import review_2 from '../assets/review2.jpg'
 import review_3 from '../assets/review3.jpg'
 import woman_writing from '../assets/woman-writing-on-paper.png'
+import blog_1 from '../assets/blog1.png'
+import blog_2 from '../assets/blog2.png'
+import blog_3 from '../assets/blog3.png'
 
 export default{
     LandingPage,
@@ -35,5 +38,8 @@ export default{
     review_1,
     review_2,
     review_3,
-    woman_writing
+    woman_writing,
+    blog_1,
+    blog_2,
+    blog_3
 }

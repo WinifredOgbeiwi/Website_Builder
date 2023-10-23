@@ -157,7 +157,29 @@ const faq_data =[
     },
 ]
 
-
+const blog_data = [
+    {
+        id: 1,
+        img: assets.blog_1,
+        date: "13 Oct 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+    {
+        id: 2,
+        img: assets.blog_2,
+        date: "23 Oct 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+    {
+        id: 3,
+        img: assets.blog_3,
+        date: "3 Nov 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+]
 
 export default {
     header_links_data,
@@ -165,4 +187,5 @@ export default {
     feature_box_data,
     review_data,
     faq_data,
+    blog_data
 }

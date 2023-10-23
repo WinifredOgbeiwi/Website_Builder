@@ -6,6 +6,7 @@ import Features from "../sections/Features";
 import Reviews from "../sections/reviews";
 import Faq from "../sections/faq";
 import Inquiry from "../sections/inquiry";
+import Blog from "../sections/blog";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Reviews/>
       <Faq/>
       <Inquiry/>
+      <Blog/>
     </>
   );
 };
