@@ -14,13 +14,7 @@ body{
 header, main, section{
     padding: 0 100px;
 }
-@media screen and (max-width:950px) {
-header,
-  main,
-  section {
-    padding: 0 50px;
-  }
-}
+
 .linear{
   background: linear-gradient(329deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
 }
@@ -32,4 +26,22 @@ input{
   border: 1.50px rgba(255, 255, 255, 0.05) solid;
   padding: 18px 32px;
   margin-bottom: 16px;
+}
+
+@media screen and (max-width:950px) {
+
+  header,
+  main,
+  section {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+  header,
+  main,
+  section {
+    padding: 0 20px;
+  }
 }

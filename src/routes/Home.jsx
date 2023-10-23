@@ -13,12 +13,12 @@ const Home = () => {
     <>
       <LandingPage />
       <HowWeWorks />
-      <Projects />
+      {/* <Projects />
       <Features />
       <Reviews/>
       <Faq/>
       <Inquiry/>
-      <Blog/>
+      <Blog/> */}
     </>
   );
 };

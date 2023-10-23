@@ -4,7 +4,7 @@ import { BsArrowRight} from 'react-icons/bs'
 
 const LinkIcon = (props) => {
   return (
-      <p className={`flex font-medium items-center space-x-5 ${props.color}`}>
+      <p className={`flex text-xs lg:text-base font-medium items-center space-x-2 lg:space-x-5 ${props.color}`}>
           <Link to={props.link}>{props.text}</Link>
           <span className=" text-xl">
               <BsArrowRight />
