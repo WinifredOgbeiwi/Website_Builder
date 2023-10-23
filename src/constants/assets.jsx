@@ -15,6 +15,7 @@ import box_Icon_6 from '../assets/Icon6.png'
 import review_1 from '../assets/review1.jpg'
 import review_2 from '../assets/review2.jpg'
 import review_3 from '../assets/review3.jpg'
+import woman_writing from '../assets/woman-writing-on-paper.png'
 
 export default{
     LandingPage,
@@ -33,5 +34,6 @@ export default{
     box_Icon_6,
     review_1,
     review_2,
-    review_3
+    review_3,
+    woman_writing
 }

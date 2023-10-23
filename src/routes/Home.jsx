@@ -5,6 +5,7 @@ import Projects from "../sections/Projects";
 import Features from "../sections/Features";
 import Reviews from "../sections/reviews";
 import Faq from "../sections/faq";
+import Inquiry from "../sections/inquiry";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Features />
       <Reviews/>
       <Faq/>
+      <Inquiry/>
     </>
   );
 };

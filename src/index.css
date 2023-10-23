@@ -17,3 +17,12 @@ header, main, section{
 .linear{
   background: linear-gradient(329deg, #1C1E53 0%, rgba(28, 30, 83, 0.42) 100%);
 }
+input{
+  display: block;
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  border: 1.50px rgba(255, 255, 255, 0.05) solid;
+  padding: 18px 32px;
+  margin-bottom: 16px;
+}
