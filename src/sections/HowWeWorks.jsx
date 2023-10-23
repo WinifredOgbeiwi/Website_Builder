@@ -9,7 +9,7 @@ const HowWeWorks = () => {
                 <div className=' max-w-sm'>
                     <h2 className='text-5xl font-semibold'>How We Work</h2>
                     <p className='text-greyy my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    <LinkIcon link={"/contact"} text={"Get in touch with us"} color="text-[#2405F2]" />
+                    <LinkIcon link={"/contact"} text={"Get in touch with us"} color="text-purple" />
 
                 </div>
 

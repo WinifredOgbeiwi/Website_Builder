@@ -7,6 +7,7 @@ export default {
         main: "#1C1E53",
         greyy: "#BBBBCB",
         yell: "#FCD980",
+        purple:"#2405F2",
         grey2:"#282938",
       },
     },

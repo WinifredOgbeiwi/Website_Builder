@@ -4,6 +4,7 @@ import HowWeWorks from "../sections/HowWeWorks";
 import Projects from "../sections/Projects";
 import Features from "../sections/Features";
 import Reviews from "../sections/reviews";
+import Faq from "../sections/faq";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Projects />
       <Features />
       <Reviews/>
+      <Faq/>
     </>
   );
 };
