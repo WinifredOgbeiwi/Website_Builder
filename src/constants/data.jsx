@@ -99,9 +99,36 @@ const feature_box_data =[
     },
 ]
 
+const review_data =[
+    {
+        id: 1,
+        img: assets.review_1,
+        name: "name",
+        title: "title",
+        quote:"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 2,
+        img: assets.review_2,
+        name: "name",
+        title: "title",
+        quote: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, laudantium.faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+    },
+    {
+        id: 3,
+        img: assets.review_3,
+        name: "name",
+        title: "title",
+        quote: "faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed."
+    },
+]
+
+
+
 
 export default {
     header_links_data,
     how_we_work_data,
-    feature_box_data
+    feature_box_data,
+    review_data
 }

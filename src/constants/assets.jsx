@@ -12,6 +12,9 @@ import box_Icon_3 from '../assets/Icon3.png'
 import box_Icon_4 from '../assets/Icon4.png'
 import box_Icon_5 from '../assets/Icon5.png'
 import box_Icon_6 from '../assets/Icon6.png'
+import review_1 from '../assets/review1.jpg'
+import review_2 from '../assets/review2.jpg'
+import review_3 from '../assets/review3.jpg'
 
 export default{
     LandingPage,
@@ -27,5 +30,8 @@ export default{
     box_Icon_3,
     box_Icon_4,
     box_Icon_5,
-    box_Icon_6
+    box_Icon_6,
+    review_1,
+    review_2,
+    review_3
 }

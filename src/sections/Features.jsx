@@ -11,7 +11,7 @@ const Features = () => {
             </div>
             <div className='grid grid-cols-3 gap-10 '> 
                 {data.feature_box_data.map(({id,img,heading,paragraph})=>(
-                    <div key={id} className=' shadow-lg bg-white py-14 px-12'>
+                    <div key={id} className=' shadow-lg bg-white py-14 px-7 w-full'>
                         <img src={img} alt="" />
                         <h5 className='mt-6 mb-3 text-2xl font-medium'>{heading}</h5>
                         <p className=' text-grey2'>{paragraph}</p>
