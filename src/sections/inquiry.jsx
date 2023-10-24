@@ -11,17 +11,17 @@ const Inquiry = () => {
                     backgroundRepeat: "no-repeat"
                 }}>
 
-                <div className='h-full w-full px-6  xs:px-12 lg:px-24 pt-24 pb-[48px]' style={{
+                <div className='h-full w-full px-6  xs:px-12 lg:px-24 pt-16 xs:pt-24 pb-[48px]' style={{
                     backgroundColor: 'rgba(28, 30, 83, 0.50)',
                 }}>
-                    <h2 className='text-2xl xs:text-4xl lg:text-5xl font-semibold leading-snug'>Building stellar websites for early startups</h2>
-                    <p className='mt-6 text-xs xs:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
+                    <h2 className=' max-[350px]:text-[20px] text-4xl lg:text-5xl font-semibold leading-snug max-[350px]:text-center'>Building stellar websites for early startups</h2>
+                    <p className='mt-6 text-xs xs:text-base max-[350px]:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
                 </div>
             </div>
 
             <div className='bg-[#1C1E53] px-6  xs:px-12 lg:px-24 pt-16 xs:pt-24 pb-[48px] text-white md:w-1/2'>
-                <h3 className='text-3xl font-medium'>Send inquiry</h3>
-                <p className='text-xs xs:text-base font-medium mt-4 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <h3 className='text-3xl font-medium max-[350px]:text-center'>Send inquiry</h3>
+                <p className='text-xs xs:text-base font-medium mt-4 mb-10 max-[350px]:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <form action="">
                     <input type="text" placeholder='Name' required />
                     <input type="email" placeholder='Email' required  />
