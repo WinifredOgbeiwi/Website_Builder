@@ -24,8 +24,8 @@ const Inquiry = () => {
                 <p className='text-xs xs:text-base font-medium mt-4 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <form action="">
                     <input type="text" placeholder='Name' required />
-                    <input type="email" placeholder='Email' required />
-                    <input type="url" placeholder='Paste your Figma design URL' />
+                    <input type="email" placeholder='Email' required  />
+                    <input type="url" placeholder='Paste your Figma design URL' className=''/>
                     <button className='bg-yell text-black rounded-2xl w-full py-3 mt-[39px]'>Send an Inquiry</button>
                 </form>
                 <div className='flex justify-center mt-[28px]'>

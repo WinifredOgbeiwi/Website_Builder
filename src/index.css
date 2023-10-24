@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{
+  outline:2px solid red;
+} */
 
 body{
     max-width: 1440px;
@@ -27,7 +30,9 @@ input{
   padding: 18px 32px;
   margin-bottom: 16px;
 }
+@media screen and (max-width:950px) {
 
+}
 @media screen and (max-width:950px) {
 
   header,
