@@ -12,7 +12,7 @@ const Header = () => {
   const [isShown,setIsShown]= useState(false)
   return (
     <>
-      <header className="flex relative justify-between w-full items-center py-8 shadow-2xl bg-main text-white ">
+      <header className="flex md:relative fixed justify-between w-full items-center py-4 shadow-2xl bg-main text-white ">
         <h1>LOGO</h1>
         <ul className="hidden md:flex space-x-7 xl:space-x-12 items-center text-sm lg:text-base ">
           {data.header_links_data.map(({ id, link, text }) => {
