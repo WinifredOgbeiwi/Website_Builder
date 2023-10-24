@@ -14,9 +14,9 @@ const Home = () => {
       <LandingPage />
       <HowWeWorks />
       <Projects />
-   <Features />
-        {/*  <Reviews/>
-      <Faq/>
+      <Features />
+      <Reviews />
+      {/* <Faq/>
       <Inquiry/>
       <Blog/> */}
     </>
