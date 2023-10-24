@@ -9,18 +9,18 @@ import Inquiry from "../sections/inquiry";
 import Blog from "../sections/blog";
 
 const Home = () => {
-  return (
-    <>
-      <LandingPage />
-      <HowWeWorks />
-      <Projects />
-      <Features />
-      <Reviews />
-      <Faq/>
-      <Inquiry/>
-     <Blog/> 
-    </>
-  );
+    return (
+        <>
+            <LandingPage />
+            <HowWeWorks />
+            <Projects />
+            <Features />
+            <Reviews />
+            <Faq />
+            <Inquiry />
+            <Blog />
+        </>
+    );
 };
 
 export default Home;
