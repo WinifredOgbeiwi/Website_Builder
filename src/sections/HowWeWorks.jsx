@@ -1,13 +1,14 @@
 import React from 'react'
 import LinkIcon from '../components/link'
 import data from '../constants/data';
+import Heading2 from '../components/heading2';
 
 const HowWeWorks = () => {
     return (
         <>
             <section className='bg-[#F4F6FC] py-[128px] flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-10 text-center md:text-start'>
                 <div className=' max-w-sm flex flex-col items-center md:items-start'>
-                    <h2 className='text-4xl md:text-5xl font-semibold'>How We Work</h2>
+                    <Heading2 text="How We Work" />
                     <p className='text-greyy my-4 text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <LinkIcon link={"/contact"} text={"Get in touch with us"} color="text-purple" />
 

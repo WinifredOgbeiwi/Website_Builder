@@ -13,8 +13,8 @@ const Home = () => {
     <>
       <LandingPage />
       <HowWeWorks />
-      {/* <Projects />
-      <Features />
+      <Projects />
+     {/*  <Features />
       <Reviews/>
       <Faq/>
       <Inquiry/>

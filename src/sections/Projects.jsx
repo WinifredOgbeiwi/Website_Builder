@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import LinkIcon from "../components/link";
 import assets from "../constants/assets";
 import HoverTexts from "../components/hoverTexts";
+import Heading2 from "../components/heading2";
 
 const Projects = () => {
     const [isHoverShown, setHoverShown] = useState({
@@ -21,11 +22,11 @@ const Projects = () => {
     return (
         <section className=" py-[128px] ">
             <div className=" flex justify-between items-center mb-16">
-                <h2 className="text-5xl font-semibold">View our projects</h2>
+                <Heading2 text="View our projects"/>
                 <LinkIcon link="/project" text={"View More"} />
             </div>
 
-            <div className="flex justify-between space-x-10">
+            <div className="flex flex-col md:flex-row gap-y-4 justify-between md:space-x-10">
                 <div
                     className=" relative "
                     onMouseEnter={() => handleMouseEnter("image1")}
@@ -36,12 +37,13 @@ const Projects = () => {
                             heading="Workhub office Webflow Webflow Design"
                             paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam"
                             width="w-1/2"
+                            bottom="mb-10"
                         />
                     )}
                     <img src={assets.Project_1} alt="" />
                 </div>
 
-                <div className="flex flex-col space-y-5">
+                <div className="flex md:flex-col space-x-3  md:space-y-5">
                     <div
                         className=" relative "
                         onMouseEnter={() => handleMouseEnter("image2")}
