@@ -37,7 +37,7 @@ const Header = () => {
         <div onClick={()=>setIsShown(!isShown)} className=" text-3xl block md:hidden">
           <AiOutlineMenuUnfold />
           {isShown && (
-            <div className="absolute w-1/2 py-2 right-0 z-50 bg-[#1c1e5380]">
+            <div className="absolute w-1/2 py-2 right-0 z-50 bg-[rgba(28,30,83,0.91)]">
               <ul className="flex flex-col space-y-7 items-center text-lg ">
                 {data.header_links_data.map(({ id, link, text }) => {
                   return (
