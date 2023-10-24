@@ -15,7 +15,7 @@ const Reviews = () => {
     }
 
     return (
-        <section className=' py-6 xs:py-[128px] bg-[#F4F6FC]'>
+        <section className=' py-6 sm:py-[128px] bg-[#F4F6FC]'>
             <div className='flex flex-col md:flex-row space-x-10 '>
                 <div>
                     <h3 className='text-2xl lg:text-[38px] text-center md:text-start font-semibold mb-4'>What our clients say about us</h3>
