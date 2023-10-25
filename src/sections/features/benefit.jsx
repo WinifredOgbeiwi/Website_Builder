@@ -1,7 +1,8 @@
 import React from 'react'
 import { Logos } from '../../components/logos'
 import data from '../../constants/data'
-import { Heading2 } from '../../components/headings'
+import { Heading2, Heading3 } from '../../components/headings'
+import assets from '../../constants/assets'
 
 export const Benefit = () => {
   return (
@@ -20,7 +21,14 @@ export const Benefit = () => {
                   </div>
               ))}
           </div>
-       
+          <div className="flex items-center space-x-20 xl:space-x-40 mt-20" >
+              <div className="text-center md:text-start">
+                  <p className='mb-2'>Use Client-first</p>
+                  <Heading3 text="ToTop agencies and freelancers around the world use Client-first " />
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              </div>
+              <img src={assets.feature_1} alt="" className="lg:block hidden w-full" />
+          </div>
       </section>
   )
 }

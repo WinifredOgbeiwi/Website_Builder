@@ -32,6 +32,10 @@ import logo_3 from '../assets/logo3.png'
 import logo_4 from '../assets/logo4.png'
 import logo_5 from '../assets/logo5.png'
 import feature_hero from '../assets/Feature-Hero.svg'
+import feature_1 from '../assets/feature1.png'
+import feature_2 from '../assets/feature2.png'
+import feature_3 from '../assets/feature3.png'
+import feature_4 from '../assets/feature4.png'
 
 export default {
     LandingPage,
@@ -67,5 +71,9 @@ export default {
     logo_3,
     logo_4,
     logo_5,
-    feature_hero
+    feature_hero,
+    feature_1,
+    feature_2,
+    feature_3,
+    feature_4
 }
