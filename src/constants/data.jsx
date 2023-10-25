@@ -36,36 +36,36 @@ const header_links_data = [
 const how_we_work_data = [
     {
         id: 1,
-        img:  assets.ColoredBox1 ,
+        img: assets.ColoredBox1,
         heading: "Strategy",
         text: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
     },
     {
         id: 2,
-        img: assets.ColoredBox2 ,
+        img: assets.ColoredBox2,
         heading: "Wireframing",
         text: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
     },
     {
         id: 3,
-        img: assets.ColoredBox3 ,
+        img: assets.ColoredBox3,
         heading: "Design",
         text: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
     },
     {
         id: 4,
-        img: assets.ColoredBox4 ,
+        img: assets.ColoredBox4,
         heading: "Development",
         text: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."
     }
 ]
 
-const feature_box_data =[
+const feature_box_data = [
     {
-        id:1,
+        id: 1,
         img: assets.box_Icon_1,
-        heading:"Uses Client First",
-        paragraph:"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        heading: "Uses Client First",
+        paragraph: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
     },
     {
         id: 2,
@@ -99,13 +99,13 @@ const feature_box_data =[
     },
 ]
 
-const review_data =[
+const review_data = [
     {
         id: 1,
         img: assets.review_1,
         name: "name",
         title: "title",
-        quote:"Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
+        quote: "Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi."
     },
     {
         id: 2,
@@ -123,9 +123,9 @@ const review_data =[
     },
 ]
 
-const faq_data =[
+const faq_data = [
 
-     {
+    {
         id: 1,
         no: "01",
         question: "How much time does it take?",
@@ -181,11 +181,35 @@ const blog_data = [
     },
 ]
 
+const process_data = [
+    {
+        id: 1,
+        heading: "Planning",
+        paragraph: " Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+    },
+    {
+        id: 2,
+        heading: "Conception",
+        paragraph: " Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+    },
+    {
+        id: 3,
+        heading: "Design",
+        paragraph: " Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+    },
+    {
+        id: 4,
+        heading: "Development",
+        paragraph: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr."
+    },
+]
+
 export default {
     header_links_data,
     how_we_work_data,
     feature_box_data,
     review_data,
     faq_data,
-    blog_data
+    blog_data,
+    process_data
 }
