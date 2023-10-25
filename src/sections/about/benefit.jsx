@@ -1,7 +1,6 @@
 import React from "react";
 import { Heading2 } from "../../components/headings";
 import data from "../../constants/data";
-import assets from "../../constants/assets";
 import { Logos } from "../../components/logos";
 
 export const Benefit = () => {
