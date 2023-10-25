@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import data from '../constants/data';
+import data from '../../constants/data';
 import { MdArrowBackIos, MdArrowForwardIos }from 'react-icons/md'
-import { Heading3 } from '../components/headings';
+import { Heading3 } from '../../components/headings';
 const Reviews = () => {
 
     const details = data.review_data

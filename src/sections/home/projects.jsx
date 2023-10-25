@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import LinkIcon from "../components/link";
-import assets from "../constants/assets";
-import HoverTexts from "../components/hoverTexts";
-import Heading2 from "../components/heading2";
+import LinkIcon from "../../components/link";
+import assets from "../../constants/assets";
+import HoverTexts from "../../components/hoverTexts";
+import Heading2 from "../../components/heading2";
 
 const Projects = () => {
     const [isHoverShown, setHoverShown] = useState({

@@ -1,9 +1,9 @@
 import React from "react";
-import assets from "../constants/assets";
-import LinkIcon from "../components/link";
-import { Heading1 } from "../components/headings";
+import assets from "../../constants/assets";
+import LinkIcon from "../../components/link";
+import { Heading1 } from "../../components/headings";
 
-const LandingPage = () => {
+const Hero = () => {
     return (
         <>
             <main className=" bg-main py-20 md:py-40 flex flex-col-reverse md:flex-row md:justify-between items-center gap-16">
@@ -26,4 +26,4 @@ const LandingPage = () => {
         </>
     );
 };
-export default LandingPage;
+export default Hero;

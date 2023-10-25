@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './layout/Header'
-import Home from './routes/HomePage'
+import Home from './routes/Home'
 import About from './routes/About'
 import Features from './routes/Features'
 import Pricing from './routes/Pricing'

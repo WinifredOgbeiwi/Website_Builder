@@ -1,7 +1,7 @@
 import React from "react";
-import LinkIcon from "../components/link";
-import data from "../constants/data";
-import { Heading2, Heading5 } from "../components/headings";
+import LinkIcon from "../../components/link";
+import data from "../../constants/data";
+import { Heading2, Heading5 } from "../../components/headings";
 
 const Blog = () => {
   return (

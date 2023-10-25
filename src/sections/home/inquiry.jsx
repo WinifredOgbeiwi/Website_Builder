@@ -1,7 +1,7 @@
 import React from 'react'
-import assets from '../constants/assets'
-import LinkIcon from '../components/link'
-import { Heading1 } from '../components/headings'
+import assets from '../../constants/assets'
+import LinkIcon from '../../components/link'
+import { Heading1 } from '../../components/headings'
 
 const Inquiry = () => {
     return (

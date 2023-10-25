@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import data from '../constants/data'
+import data from '../../constants/data'
 
-import FaqPortion from '../components/faqPortion'
-import { Heading3 } from '../components/headings'
+import FaqPortion from '../../components/faqPortion'
+import { Heading3 } from '../../components/headings'
 
 const Faq = () => {
 

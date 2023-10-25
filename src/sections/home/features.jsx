@@ -1,7 +1,7 @@
 import React from 'react'
 
-import data from '../constants/data';
-import { Heading2 } from '../components/headings';
+import data from '../../constants/data';
+import { Heading2 } from '../../components/headings';
 
 const Features = () => {
     return (
