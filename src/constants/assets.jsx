@@ -23,8 +23,16 @@ import about_1 from '../assets/about1.png'
 import about_2 from '../assets/about2.png'
 import about_3 from '../assets/about3.png'
 import about_4 from '../assets/about4.png'
+import benefit_1 from '../assets/benefit1.png'
+import benefit_2 from '../assets/benefit2.png'
+import benefit_3 from '../assets/benefit3.png'
+import logo_1 from '../assets/logo1.png'
+import logo_2 from '../assets/logo2.png'
+import logo_3 from '../assets/logo3.png'
+import logo_4 from '../assets/logo4.png'
+import logo_5 from '../assets/logo5.png'
 
-export default{
+export default {
     LandingPage,
     ColoredBox1,
     ColoredBox2,
@@ -50,4 +58,12 @@ export default{
     about_2,
     about_3,
     about_4,
+    benefit_1,
+    benefit_2,
+    benefit_3,
+    logo_1,
+    logo_2,
+    logo_3,
+    logo_4,
+    logo_5
 }

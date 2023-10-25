@@ -204,6 +204,26 @@ const process_data = [
     },
 ]
 
+const benefit_box_data = [
+    {
+        id: 1,
+        img: assets.benefit_1,
+        heading: "Customize with ease",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+    },
+    {
+        id: 2,
+        img: assets.benefit_2,
+        heading: "Perfectly Responsive",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+    },
+    {
+        id: 3,
+        img: assets.benefit_3,
+        heading: "Friendly Support",
+        paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
+    },
+]
 export default {
     header_links_data,
     how_we_work_data,
@@ -211,5 +231,6 @@ export default {
     review_data,
     faq_data,
     blog_data,
-    process_data
+    process_data,
+    benefit_box_data,
 }

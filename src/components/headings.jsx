@@ -20,7 +20,7 @@ const Heading2 = ({ text, align,width }) => {
 // const 38px
 const Heading3 = ({ text }) => {
     return (
-        <h3 className='text-2xl lg:text-[38px] text-center md:text-start font-semibold mb-4 leading-snug w-full'>{text}</h3>
+        <h3 className='text-2xl lg:text-[38px] text-center md:text-start font-semibold leading-snug w-full'>{text}</h3>
     )
 }
 
