@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Hero />
-      {/* <WhoWeAre />
-      <Process />
+     <WhoWeAre />
+       {/* <Process />
       <Mission />
       <Benefit />
       <Team/> */}
