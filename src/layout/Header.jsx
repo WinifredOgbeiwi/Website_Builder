@@ -18,7 +18,7 @@ const Header = () => {
           {data.header_links_data.map(({ id, link, text }) => {
             return (
               <li
-                id={id}
+                key={id}
                 className={`hover:underline ${
                   currentPage(link) ? "text-greyy" : "text-white"
                 }`}
@@ -42,7 +42,7 @@ const Header = () => {
                 {data.header_links_data.map(({ id, link, text }) => {
                   return (
                     <li
-                      id={id}
+                      key={id}
                       className={`hover:underline ${currentPage(link) ? "text-greyy" : "text-white"
                         }`}
                     >

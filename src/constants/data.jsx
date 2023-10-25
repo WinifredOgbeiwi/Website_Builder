@@ -22,12 +22,12 @@ const header_links_data = [
         text: "Pricing"
     },
     {
-        id: 3,
+        id: 5,
         link: "/faq",
         text: "FAQ"
     },
     {
-        id: 3,
+        id: 6,
         link: "/blog",
         text: "Blog"
     },
