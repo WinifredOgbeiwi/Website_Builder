@@ -224,6 +224,34 @@ const benefit_box_data = [
         paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."
     },
 ]
+
+const Team_data = [
+    {
+        id: 1,
+        img: assets.review_1,
+        name: "John Smith",
+        position: "CEO"
+    },
+    {
+        id: 2,
+        img: assets.review_2,
+        name: "Simon Adams",
+        position: "CTO"
+    },
+    {
+        id: 3,
+        img: assets.review_3,
+        name: "Paul Jones",
+        position: "Design Lead"
+    },
+    {
+        id: 4,
+        img: assets.review_3,
+        name: "Sara Hardin",
+        position: "Design Lead"
+    },
+]
+
 export default {
     header_links_data,
     how_we_work_data,
@@ -233,4 +261,5 @@ export default {
     blog_data,
     process_data,
     benefit_box_data,
+    Team_data
 }
