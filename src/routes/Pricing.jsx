@@ -1,10 +1,11 @@
 import React from 'react'
+import { Plans } from '../sections/pricing/plans'
 
 const Pricing = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Plans/>
+    </>
   )
 }
 

@@ -36,7 +36,8 @@ import feature_1 from '../assets/feature1.png'
 import feature_2 from '../assets/feature2.png'
 import feature_3 from '../assets/feature3.png'
 import feature_4 from '../assets/feature4.png'
-
+import pointer from '../assets/pointer.png'
+import pointer_grey from '../assets/pointergrey.png'
 export default {
     LandingPage,
     ColoredBox1,
@@ -75,5 +76,7 @@ export default {
     feature_1,
     feature_2,
     feature_3,
-    feature_4
+    feature_4,
+    pointer,
+    pointer_grey
 }
