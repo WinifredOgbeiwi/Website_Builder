@@ -19,6 +19,10 @@ import woman_writing from '../assets/woman-writing-on-paper.png'
 import blog_1 from '../assets/blog1.png'
 import blog_2 from '../assets/blog2.png'
 import blog_3 from '../assets/blog3.png'
+import about_1 from '../assets/about1.png'
+import about_2 from '../assets/about2.png'
+import about_3 from '../assets/about3.png'
+import about_4 from '../assets/about4.png'
 
 export default{
     LandingPage,
@@ -41,5 +45,9 @@ export default{
     woman_writing,
     blog_1,
     blog_2,
-    blog_3
+    blog_3,
+    about_1,
+    about_2,
+    about_3,
+    about_4,
 }

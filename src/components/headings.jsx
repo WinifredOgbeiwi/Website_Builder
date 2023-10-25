@@ -1,12 +1,12 @@
 import React from 'react'
 
 // font 54 px
-const Heading1 = ({text}) => {
-  return (
-      <h1 className=" text-white text-center md:text-start text-4xl xl:text-6xl font-semibold leading-snug ">
-         {text}
-      </h1>
-  )
+const Heading1 = ({ text }, color) => {
+    return (
+        <h1 className={`${color} text-center md:text-start text-4xl xl:text-6xl font-semibold leading-tight`}>
+            {text}
+        </h1>
+    )
 }
 
 // font 48px
@@ -26,8 +26,8 @@ const Heading3 = ({ text }) => {
 // const 24px
 const Heading5 = ({ text }) => {
     return (
-          <h4 className=" font-medium text-2xl  my-4">{text}</h4>
-       
+        <h4 className=" font-medium text-2xl  my-4">{text}</h4>
+
     )
 }
 

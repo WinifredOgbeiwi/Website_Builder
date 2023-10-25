@@ -8,7 +8,7 @@ const Hero = () => {
         <>
             <main className=" bg-main py-20 md:py-40 flex flex-col-reverse md:flex-row md:justify-between items-center gap-16">
                 <div className=" ">
-                    <Heading1 text="Building stellar websites for early startups"/>
+                    <Heading1 text="Building stellar websites for early startups" color="text-white"/>
                     <p className=" pt-6 text-greyy text-center md:text-start">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt.

@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkIcon from '../../components/link'
 import data from '../../constants/data';
-import Heading2 from '../../components/heading2';
+import { Heading2 } from '../../components/headings';
 
 const HowWeWorks = () => {
     return (
