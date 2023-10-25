@@ -4,9 +4,9 @@ import data from '../../constants/data'
 
 export const Process = () => {
     return (
-        <section className=' py-[128px] '>
+        <section className='py-20 md:py-[128px] '>
             <Heading2 text="The process we follow" align="text-center" />
-            <div className='grid grid-cols-2 sm:gap-y-10 lg:grid-cols-4 justify-between mt-12'>
+            <div className='grid max-[400px]:grid-cols-1 grid-cols-2 gap-y-10 lg:grid-cols-4 justify-between mt-12'>
                 {data.process_data.map(({ id, heading, paragraph }) => (
                     <div key={id}>
                         <div className='w-6 h-6 rounded-full bg-purple mb-5'></div>

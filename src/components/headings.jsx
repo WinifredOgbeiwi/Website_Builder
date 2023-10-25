@@ -12,7 +12,7 @@ const Heading1 = ({ text, color }) => {
 // font 48px
 const Heading2 = ({ text, align,width }) => {
     return (
-        <h2 className={`text-xl sm:text-3xl md:text-5xl font-semibold  ${width} leading-tight ${align}`}>{text}</h2>
+        <h2 className={`text-2xl sm:text-3xl md:text-5xl font-semibold  ${width} leading-tight ${align}`}>{text}</h2>
     )
     // md: w - 8 / 12
 }
