@@ -1,6 +1,7 @@
 import React from 'react'
 import assets from '../constants/assets'
 import LinkIcon from '../components/link'
+import { Heading1 } from '../components/headings'
 
 const Inquiry = () => {
     return (
@@ -14,7 +15,7 @@ const Inquiry = () => {
                 <div className='h-full w-full px-6  sm:px-12 lg:px-24 pt-16 sm:pt-24 pb-[48px]' style={{
                     backgroundColor: 'rgba(28, 30, 83, 0.50)',
                 }}>
-                    <h2 className=' max-[350px]:text-[20px] text-4xl lg:text-5xl font-semibold leading-snug max-[350px]:text-center'>Building stellar websites for early startups</h2>
+                    <Heading1 text="Building stellar websites for early startups" />
                     <p className='mt-6 text-xs sm:text-base max-[350px]:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
                 </div>
             </div>
@@ -24,8 +25,8 @@ const Inquiry = () => {
                 <p className='text-xs sm:text-base font-medium mt-4 mb-10 max-[350px]:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                 <form action="">
                     <input type="text" placeholder='Name' required />
-                    <input type="email" placeholder='Email' required  />
-                    <input type="url" placeholder='Paste your Figma design URL' className=''/>
+                    <input type="email" placeholder='Email' required />
+                    <input type="url" placeholder='Paste your Figma design URL' className='' />
                     <button className='bg-yell text-black rounded-2xl w-full py-3 mt-[39px]'>Send an Inquiry</button>
                 </form>
                 <div className='flex justify-center mt-[28px]'>

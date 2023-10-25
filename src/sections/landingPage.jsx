@@ -1,15 +1,14 @@
 import React from "react";
 import assets from "../constants/assets";
 import LinkIcon from "../components/link";
+import { Heading1 } from "../components/headings";
 
 const LandingPage = () => {
     return (
         <>
             <main className=" bg-main py-20 md:py-40 flex flex-col-reverse md:flex-row md:justify-between items-center gap-16">
                 <div className=" ">
-                    <h1 className=" text-white text-center md:text-start text-4xl xl:text-6xl font-semibold leading-snug ">
-                        Building stellar websites for early startups
-                    </h1>
+                    <Heading1 text="Building stellar websites for early startups"/>
                     <p className=" pt-6 text-greyy text-center md:text-start">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt.

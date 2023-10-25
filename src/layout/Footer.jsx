@@ -14,10 +14,10 @@ const Footer = () => {
           <h2 className=' font-medium text-xl sm:text-3xl md:text-5xl'>Lets Talk!</h2>
           <p className='text-xs sm:text-base text-[#F4F6FC] mt-4 '>We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
           <div className='flex space-x-2 sm:space-x-7 mt-7'>
-            <BsFacebook/>
-            <BsTwitter/>
-            <BsInstagram/>
-            <BsLinkedin/>
+            <BsFacebook />
+            <BsTwitter />
+            <BsInstagram />
+            <BsLinkedin />
           </div>
         </div>
       </div>

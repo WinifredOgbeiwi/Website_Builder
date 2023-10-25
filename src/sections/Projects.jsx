@@ -22,7 +22,7 @@ const Projects = () => {
     return (
         <section className=" py-10 sm:py-[128px] ">
             <div className=" flex justify-between items-center mb-4 sm:mb-16">
-                <Heading2 text="View our projects"/>
+                <Heading2 text="View our projects" />
                 <LinkIcon link="/project" text={"View More"} />
             </div>
 
