@@ -1,7 +1,7 @@
 import React from 'react'
 
 // font 54 px
-const Heading1 = ({ text }, color) => {
+const Heading1 = ({ text, color }) => {
     return (
         <h1 className={`${color} text-center md:text-start text-4xl xl:text-6xl font-semibold leading-tight`}>
             {text}
