@@ -14,7 +14,6 @@ const Heading2 = ({ text, align,width }) => {
     return (
         <h2 className={`text-3xl sm:text-3xl md:text-5xl font-semibold  ${width} leading-tight ${align}`}>{text}</h2>
     )
-    // md: w - 8 / 12
 }
 
 // const 38px
