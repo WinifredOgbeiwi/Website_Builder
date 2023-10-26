@@ -38,6 +38,13 @@ import feature_3 from '../assets/feature3.png'
 import feature_4 from '../assets/feature4.png'
 import pointer from '../assets/pointer.png'
 import pointer_grey from '../assets/pointergrey.png'
+import works_1 from '../assets/work1.png'
+import works_2 from '../assets/work2.png'
+import works_3 from '../assets/work3.png'
+import works_4 from '../assets/work4.png'
+import works_5 from '../assets/work5.png'
+import works_6 from '../assets/work6.png'
+
 export default {
     LandingPage,
     ColoredBox1,
@@ -78,5 +85,11 @@ export default {
     feature_3,
     feature_4,
     pointer,
-    pointer_grey
+    pointer_grey,
+    works_1,
+    works_2,
+    works_3,
+    works_4,
+    works_5,
+    works_6
 }

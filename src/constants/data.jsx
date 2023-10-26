@@ -252,6 +252,71 @@ const Team_data = [
     },
 ]
 
+const work_headings_data = [
+    {
+        id: 1,
+        text: "All",
+    },
+    {
+        id: 2,
+        text: "UI Design",
+    },
+    {
+        id: 3,
+        text: "Web Design",
+    },
+    {
+        id: 4,
+        text: "Figma Design",
+    },
+]
+
+const work_templates_data = [
+    {
+        id: 1,
+        img: assets.works_1 ,
+        heading: "Template 1",
+        paragraph:"Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+        type: "Figma Design"
+    },  
+    {
+        id: 2,
+        img: assets.works_2,
+        heading: "Template 2",
+        paragraph: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+        type: "Figma Design"
+
+    },
+    {
+        id: 3,
+        img: assets.works_3,
+        heading: "Template 3",
+        paragraph: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+          type: "Web Design"
+    },
+    {
+        id: 4,
+        img: assets.works_4,
+        heading: "Template 4",
+        paragraph: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+        type: "Web Design"
+    },
+    {
+        id: 5,
+        img: assets.works_5,
+        heading: "Template 5",
+        paragraph: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+        type: "UI Design"
+    },
+    {
+        id: 6,
+        img: assets.works_6,
+        heading: "Template 6",
+        paragraph: "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.",
+        type:"UI Design"
+    },
+]
+  
 export default {
     header_links_data,
     how_we_work_data,
@@ -261,5 +326,7 @@ export default {
     blog_data,
     process_data,
     benefit_box_data,
-    Team_data
+    Team_data,
+    work_headings_data,
+    work_templates_data
 }
