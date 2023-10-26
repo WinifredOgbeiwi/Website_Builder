@@ -23,8 +23,8 @@ const header_links_data = [
     },
     {
         id: 5,
-        link: "/faq",
-        text: "FAQ"
+        link: "/work",
+        text: "Work"
     },
     {
         id: 6,
