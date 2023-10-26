@@ -29,7 +29,7 @@ const Header = () => {
             );
           })}
           <button className=' border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:bg-main hover:text-white'>
-            Contact Us
+            <Link to="/contact">Contact Us</Link>
           </button>
       
         </ul>
@@ -52,7 +52,7 @@ const Header = () => {
                   );
                 })}
                 <button className=' border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:bg-main hover:text-white'>
-                  Contact Us
+                  <Link to="/contact">Contact Us</Link>
                 </button>
 
               </ul>

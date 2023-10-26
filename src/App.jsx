@@ -8,6 +8,7 @@ import Pricing from './routes/Pricing'
 import Blog from './routes/Blog'
 import Footer from './layout/Footer'
 import Work from './routes/Work'
+import Contact from './routes/Contact'
 
 const App = () => {
   return (
@@ -21,8 +22,9 @@ const App = () => {
           <Route path='/pricing' element={<Pricing />} />
           <Route path='/work' element={<Work />} />
           <Route path='/blog' element={<Blog />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
 
     </>
