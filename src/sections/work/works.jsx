@@ -14,21 +14,21 @@ const Works = () => {
     return (
         <section className="pt-32 md:pt-[128px] flex flex-wrap justify-center gap-5 ">
 
-            <ul className='flex gap-16 justify-center items-center'>
+            <ul className='flex max-[350px]:flex-col  max-[350px]:gap-5 gap-16 justify-center items-center'>
                 {data.work_headings_data.map(({ id, text }) => (
                     <li key={id}
                         onClick={() => setSelectedOption(text)}
-                        className={`${selectedOption === text ? 'text-purple' : "text-black"} cursor-pointer`}>{text}</li>
+                        className={`${selectedOption === text ? 'text-purple' : "text-black"} cursor-pointer max-[600px]:text-sm `}>{text}</li>
                 ))}
             </ul>
-            <div className='grid grid-cols-2 py-12 gap-6'>
+            <div className='grid grid-cols-2 max-[600px]:grid-cols-1  max-[350px]:py-5 py-12 gap-6 max-[600px]:text-center'>
 
                 <>
                     {filteredData.map(({ id, paragraph, img, heading }) => (
-                        <div key={id} className='mb-8'>
+                        <div key={id} className='mb-8 flex flex-col max-[600px]:items-center'>
                             <img src={img} alt="" className='mb-6' />
                             <Heading3 text={heading} />
-                            <p className='mb-6 mt-3'>{paragraph}</p>
+                            <p className='max-[600px]:mb-3 mb-6 mt-3'>{paragraph}</p>
                             <LinkIcon text="View Portfolio" />
                         </div>
                     ))}
