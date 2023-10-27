@@ -12,7 +12,7 @@ export const Benefit = () => {
       />
       <div className="grid md:grid-cols-3 gap-10 mt-14 ">
         {data.benefit_box_data.map(({ id, img, heading, paragraph }) => (
-          <div key={id} className=" shadow-md bg-[#F4F6FC] py-14 px-7 w-full">
+          <div key={id} className=" shadow-md bg-[#F4F6FC] max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-center max-[768px]:items-center py-14 px-7 w-full">
             <img src={img} alt="Icon" />
             <h5 className="mt-6 mb-3 sm:text-2xl font-medium">{heading}</h5>
             <p className="text-sm sm:text-base text-grey2">{paragraph}</p>
