@@ -9,8 +9,8 @@ const Contact = () => {
                 <p className='mt-4 mb-4 md:mb-16'> Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
 
-            <div className='bg-[#F4F6FC] w-10/12 px-10 max-[639px]:px-9 max-[810px]:px-5 lg:px-[77px] py-[55px] rounded-xl'>
-                <form action="">
+            <div className='bg-[#F4F6FC] md:w-10/12 max-[639px]:px-9 max-[810px]:px-5 lg:px-[77px] py-[55px] rounded-xl'>
+                <form action="" className='w-full'>
                     <div className='w-full grid  sm:grid-cols-2 gap-8'>
                         <div>
                             <label htmlFor="name" className=' text-[18px] font-medium'>Name</label>
