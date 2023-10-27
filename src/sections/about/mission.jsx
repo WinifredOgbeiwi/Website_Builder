@@ -9,7 +9,7 @@ export const Mission = () => {
                 <div className="text-center md:text-start md:w-1/2 ">
                     <p>Our Mission</p>
                     <Heading3 text="Inspire, Innovate, Share" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div className="md:w-1/2">
                     <img src={assets.about_3} alt="mission"  />
@@ -23,7 +23,7 @@ export const Mission = () => {
                 <div className="text-center md:text-start md:w-1/2  ">
                     <p >Our Vision</p>
                     <Heading3 text="Laser focus" />
-                    <p className="max-[767px]:mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className="max-[767px]:mb-10 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
 
             </div>
