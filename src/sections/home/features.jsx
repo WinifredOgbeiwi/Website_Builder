@@ -5,7 +5,7 @@ import { Heading2 } from '../../components/headings';
 
 const Features = () => {
     return (
-        <section className=' bg-[#F4F6FC] py-[128px]'>
+        <section className=' bg-[#F4F6FC] py-20 md:py-[128px]'>
             <div className='flex flex-col justify-center items-center text-center mb-12 '>
                 <h5 className='text-xs sm:text-base font-medium mb-3'>Features</h5>
                 <Heading2 text="Design that solves problems, one product at a time" align="text-center" />
