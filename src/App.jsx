@@ -9,6 +9,8 @@ import Blog from './routes/Blog'
 import Footer from './layout/Footer'
 import Work from './routes/Work'
 import Contact from './routes/Contact'
+import BlogPage from './routes/BlogPage'
+import NotFound from './routes/NotFound'
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
           <Route path='/work' element={<Work />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/blog:id' element={<BlogPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>

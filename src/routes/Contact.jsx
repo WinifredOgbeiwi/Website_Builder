@@ -32,10 +32,10 @@ const Contact = () => {
                     </div>
                     <div className='text-start mt-8'>
                         <label htmlFor="" className=' text-[18px]'>Message</label>
-                        <textarea name="" id="" cols="30" rows="5" placeholder='Write your  question here' className='w-full bg-transparent border-2 rounded-lg py-[18px] px-8 border-[#0000001f]'  required></textarea>
+                        <textarea name="" id="" cols="30" rows="5" placeholder='Write your  question here' className='w-full bg-transparent border-2 rounded-lg py-[18px] px-8 border-[#0000001f]' required></textarea>
                     </div>
                     <button className='bg-black text-white py-6  w-full md:w-64 rounded-[41px] mt-8'>Send Messege</button>
-                
+
                 </form>
             </div>
 

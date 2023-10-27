@@ -18,7 +18,7 @@ const Works = () => {
                 {data.work_headings_data.map(({ id, text }) => (
                     <li key={id}
                         onClick={() => setSelectedOption(text)}
-                        className={`${selectedOption === text ? 'text-purple' : "text-black"} cursor-pointer max-[600px]:text-sm `}>{text}</li>
+                        className={`${selectedOption === text ? 'text-purple' : "text-black"} cursor-pointer max-[600px]:text-sm text-center `}>{text}</li>
                 ))}
             </ul>
             <div className='grid grid-cols-2 max-[600px]:grid-cols-1  max-[350px]:py-5 py-12 gap-6 max-[600px]:text-center'>

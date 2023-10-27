@@ -179,6 +179,34 @@ const blog_data = [
         title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
         summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
     },
+    {
+        id: 4,
+        img: assets.blog_3,
+        date: "3 Nov 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+    {
+        id: 5,
+        img: assets.blog_3,
+        date: "3 Nov 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+    {
+        id: 6,
+        img: assets.blog_3,
+        date: "3 Nov 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
+    {
+        id: 7,
+        img: assets.blog_3,
+        date: "3 Nov 2023",
+        title: "How one Webflow user grew his single person consultancy from $0-100K in 14 months",
+        summary: "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"
+    },
 ]
 
 const process_data = [

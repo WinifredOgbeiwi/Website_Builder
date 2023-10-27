@@ -12,7 +12,7 @@ const Heading1 = ({ text, color }) => {
 // font 48px
 const Heading2 = ({ text, align,width }) => {
     return (
-        <h2 className={`text-3xl sm:text-3xl md:text-5xl font-semibold  ${width} leading-tight ${align}`}>{text}</h2>
+        <h2 className={`text-3xl max-[400px]:text-2xl sm:text-3xl md:text-5xl font-semibold  ${width} leading-tight ${align}`}>{text}</h2>
     )
 }
 
