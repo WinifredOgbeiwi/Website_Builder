@@ -10,7 +10,7 @@ export const Benefit = () => {
         text="The benefits of working with us"
         width="md:w-2/3 lg:w-1/3"
       />
-      <div className="grid md:grid-cols-3 gap-10 mt-14 ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-14 ">
         {data.benefit_box_data.map(({ id, img, heading, paragraph }) => (
           <div key={id} className=" shadow-md bg-[#F4F6FC] max-[768px]:flex max-[768px]:flex-col max-[768px]:justify-center max-[768px]:items-center py-14 px-7 w-full">
             <img src={img} alt="Icon" />
