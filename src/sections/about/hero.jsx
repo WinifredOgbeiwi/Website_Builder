@@ -11,7 +11,7 @@ export const Hero = () => {
             </div>
 
             <div>
-                <img src={assets.about_1} alt="" />
+                <img src={assets.about_1} alt="Hero" />
             </div>
         </main>
     )

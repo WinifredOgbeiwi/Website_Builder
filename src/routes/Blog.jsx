@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
         {data.blog_data.map(({ id, date, title, img, summary }) => (
           <div key={id} className="mb-5">
-            <img src={img} alt="" width="100%" />
+            <img src={img} alt="blog" width="100%" />
             <p className=" font-medium mt-10">{date}</p>
             <Heading5 text={title} />
             <p className="mb-8">{summary}</p>
