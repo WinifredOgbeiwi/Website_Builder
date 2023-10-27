@@ -19,7 +19,7 @@ export const Benefit = () => {
           </div>
         ))}
       </div>
-      <Logos text="Finsweet Users"/>
+      <Logos />
     </section>
   );
 };
