@@ -28,7 +28,7 @@ const Header = () => {
               </li>
             );
           })}
-          <button className=' border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:bg-main hover:text-white'>
+          <button className={`border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:border-yell hover:text-white ${currentPage("/contact") ? "text-greyy" : "text-white"}`}>
             <Link to="/contact">Contact Us</Link>
           </button>
 
@@ -50,7 +50,7 @@ const Header = () => {
                     </li>
                   );
                 })}
-                <button className=' border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:bg-main hover:text-white'>
+                <button className={`border-white border rounded-3xl py-2 lg:py-4 px-6 lg:px-12 hover:border-yell ${currentPage("/contact") ? "text-greyy" : "text-white"}`}>
                   <Link to="/contact">Contact Us</Link>
                 </button>
 
