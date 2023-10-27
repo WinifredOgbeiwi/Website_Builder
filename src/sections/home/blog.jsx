@@ -6,7 +6,7 @@ import { Heading2, Heading5 } from "../../components/headings";
 const Blog = () => {
   const blogs = data.blog_data.slice(0,3)
   return (
-    <section className="py-[128px]">
+    <section className="py-20 md:py-[128px]">
       <Heading2 text="  Our blog"/>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">

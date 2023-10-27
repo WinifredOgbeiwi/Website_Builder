@@ -8,8 +8,8 @@ export const Process = () => {
             <Heading2 text="The process we follow" align="text-center" />
             <div className='grid max-[400px]:grid-cols-1 grid-cols-2 gap-y-10 lg:grid-cols-4 justify-between mt-12'>
                 {data.process_data.map(({ id, heading, paragraph }) => (
-                    <div key={id}>
-                        <div className='w-6 h-6 rounded-full bg-purple mb-5'></div>
+                    <div key={id} className='max-[400px]:flex flex-col items-center max-[400px]:text-center '>
+                        <div className='w-6 h-6 rounded-full bg-purple '></div>
                         <Heading5 text={heading} />
                         <p>{paragraph}</p>
                     </div>
