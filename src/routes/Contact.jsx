@@ -4,9 +4,9 @@ import { Heading2 } from '../components/headings'
 const Contact = () => {
     return (
         <section className="py-32 max-[600px]:px-2 md:py-[128px] flex flex-col items-center justify-center gap-5">
-            <div className='text-center w-8/12 '>
+            <div className='text-center md:w-8/12 '>
                 <Heading2 text="Contact Us" />
-                <p className='mt-4 mb-16'> Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <p className='mt-4 mb-4 md:mb-16'> Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
 
             <div className='bg-[#F4F6FC] w-10/12 px-10 max-[639px]:px-9 max-[810px]:px-5 lg:px-[77px] py-[55px] rounded-xl'>
