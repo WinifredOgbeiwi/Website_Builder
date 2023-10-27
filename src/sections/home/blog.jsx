@@ -8,7 +8,6 @@ const Blog = () => {
   return (
     <section className="py-20 md:py-[128px]">
       <Heading2 text="  Our blog"/>
-
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
         {blogs.map(({ id, date, title, img, summary }) => (
           <div key={id} className="mb-5">
