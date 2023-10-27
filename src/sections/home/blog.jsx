@@ -9,9 +9,9 @@ const Blog = () => {
     <section className="py-[128px]">
       <Heading2 text="  Our blog"/>
 
-      <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-16">
         {blogs.map(({ id, date, title, img, summary }) => (
-          <div key={id} className="md:w-1/3">
+          <div key={id} className="">
             <img src={img} alt="" width="100%" />
             <p className=" font-medium mt-10">{date}</p>
             <Heading5 text={title}/>
