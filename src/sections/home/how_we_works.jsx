@@ -6,14 +6,12 @@ import { Heading2 } from '../../components/headings';
 const HowWeWorks = () => {
     return (
         <>
-            <section className='bg-[#F4F6FC] py-[128px] flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-10 text-center md:text-start'>
+            <section className='bg-[#F4F6FC] py-20 md:py-[128px] flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between gap-10 text-center md:text-start'>
                 <div className=' max-w-sm flex flex-col items-center md:items-start'>
                     <Heading2 text="How We Work" />
                     <p className='text-greyy my-4 text-sm md:text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     <LinkIcon link={"/contact"} text={"Get in touch with us"} color="text-purple" />
-
                 </div>
-
 
                 <div className='grid md:grid-cols-2 space-x-5 gap-y-10'>
                     {data.how_we_work_data.map((item) => {
@@ -27,9 +25,6 @@ const HowWeWorks = () => {
                             </div>
                         )
                     })}
-
-
-
                 </div>
             </section>
         </>
